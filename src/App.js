@@ -1,25 +1,63 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/header/navbar';
+import Movie from './components/video/video';
+import Footer from './components/footer/footer';
+import About from './components/header/about';
 
-function App() {
+import { BrowserRouter, Route } from 'react-router-dom';
+import { ApartmentsContainer } from './components/apartments/apartments copy';
+
+// import Favourite from './components/favorite/favourite';
+import FavouriteContainer from './components/favorite/favouriteContainer';
+import VillaContainer from './components/villa/villaContainer';
+import AllContainer from './components/all/allContainer';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      {/* <div classNameName="App">
+          <div class='sticky'>
+            <Header store={store} dispatch={store.dispatch} />
+          </div>
+          <div>
+            <Route exact path='/' render={() => <Main />} />
+            <Route path='/about' component={About} />
+            <Route path='/favourite' render={() => <Favourite store={store} />} />
+            <Route path='/villa/:villaId?' render={(props) => <VillaContainer store={store} dispatch={store.dispatch} {...props} />} />
+          </div>
+          <Footer />
+        </div> */}
+      <div className="App">
+        <div className='sticky'>
+          <Navbar />
+        </div>
+        <div>
+          <Route exact path='/' render={() => <Main />} />
+          <Route path='/about' component={About} />
+          <Route path='/allApartments' component={AllContainer} />
+          <Route path='/favourite' render={() => <FavouriteContainer />} />
+          <Route path='/villa/:villaId?' render={(props) => <VillaContainer {...props} />} />
+        </div>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
+
+
+const Main = (props) => {
+  return (
+    <div>
+      <div className='movie'>
+        <Movie />
+      </div>
+      <div className='apartments-component'>
+        <ApartmentsContainer />
+      </div>
+      <div></div>
+    </div>
+  )
+}
+
 
 export default App;

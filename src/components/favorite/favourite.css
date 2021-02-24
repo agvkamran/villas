@@ -1,0 +1,11 @@
+.content-favourite {
+    height: 671px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
+}
+
+.apartment {
+    height: 350px;
+}

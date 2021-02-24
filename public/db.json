@@ -1,0 +1,34 @@
+{
+    "apartments": [
+      {
+        "id": 0,
+        "imageUrl": "https://i.pinimg.com/originals/79/0c/d2/790cd29bd9bdee8745237d3d9986844f.jpg",
+        "building": "Built in 2003",
+        "category": "Building house",
+        "price": 3400000,
+        "area": "301m2",
+        "rooms": "8",
+        "country": "Malaysia"
+      },
+      {
+        "id": 1,
+        "imageUrl": "https://i.pinimg.com/originals/79/0c/d2/790cd29bd9bdee8745237d3d9986844f.jpg",
+        "building": "Built in 2009",
+        "category": "Building house",
+        "price": 4550000,
+        "area": "403m2",
+        "rooms": "10",
+        "country": "America"
+      },
+      {
+        "id": 2,
+        "imageUrl": "https://i.pinimg.com/originals/79/0c/d2/790cd29bd9bdee8745237d3d9986844f.jpg",
+        "building": "Built in 2011",
+        "category": "Building house",
+        "price": 4200000,
+        "area": "372m2",
+        "rooms": "9",
+        "country": "Israel"
+      }
+    ]
+  }
