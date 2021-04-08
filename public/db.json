@@ -1,34 +1,105 @@
 {
-    "apartments": [
-      {
-        "id": 0,
-        "imageUrl": "https://i.pinimg.com/originals/79/0c/d2/790cd29bd9bdee8745237d3d9986844f.jpg",
-        "building": "Built in 2003",
-        "category": "Building house",
-        "price": 3400000,
-        "area": "301m2",
-        "rooms": "8",
-        "country": "Malaysia"
-      },
-      {
-        "id": 1,
-        "imageUrl": "https://i.pinimg.com/originals/79/0c/d2/790cd29bd9bdee8745237d3d9986844f.jpg",
-        "building": "Built in 2009",
-        "category": "Building house",
-        "price": 4550000,
-        "area": "403m2",
-        "rooms": "10",
-        "country": "America"
-      },
-      {
-        "id": 2,
-        "imageUrl": "https://i.pinimg.com/originals/79/0c/d2/790cd29bd9bdee8745237d3d9986844f.jpg",
-        "building": "Built in 2011",
-        "category": "Building house",
-        "price": 4200000,
-        "area": "372m2",
-        "rooms": "9",
-        "country": "Israel"
-      }
-    ]
-  }
+  "apartments": [
+    {
+      "id": 0,
+      "imageUrl": "https://swall.teahub.io/photos/small/89-895128_hd-wallpapers-mother-nature-windows-beautiful-green-nature.jpg",
+      "building": "Built in 2003",
+      "category": "Building house",
+      "price": 3400000,
+      "area": "301m2",
+      "rooms": 8,
+      "country": "Malaysia",
+      "type": "VIP",
+      "realtor": "Enoch Muldrew",
+      "email": "enochmuldrew@gmail.com",
+      "phone": "+123456789",
+      "about": " It offers total privacy and uninterrupted panoramic views over the countryside to the sea. The private pool can be heated if required at an additional cost. It is on a large plot of land in a quiet area only 3kms from the pretty market town of Loulé where there are many shops and restaurants. Outside, a covered dining area leads to the secluded pool, where there is a south facing terrace and a shaded spot under a palm tree. Here you can lie on the hammock to escape the midday sun!The garden surrounding the villa is delightful and is surrounded by shrubbery ensuring complete privacy. There are trailing bougainvilleas, a variety of trees (including lemon, fig and almond) and shrubs providing colour throughout the year.The kitchen is at one end of the open-plan living/dining room and there is a comfortable leather sofa and chairs around a log burning stove.The accommodation consists of: 2 double bedrooms, 1 en-suite bathroom, 1 shower room, balcony, sun room, fully equipped kitchen with dishwasher and washing machine, lounge/diner with satellite TV, DVD and CD/radio. Air conditioning in the master bedroom and the lounge/diner is included in the price."
+    },
+    {
+      "id": 1,
+      "imageUrl": "https://i.pinimg.com/originals/79/0c/d2/790cd29bd9bdee8745237d3d9986844f.jpg",
+      "building": "Built in 2009",
+      "category": "Building house",
+      "price": 4550000,
+      "area": "403m2",
+      "rooms": 8,
+      "country": "America",
+      "type": "VIP",
+      "realtor": "Sharleen Echols",
+      "email": "sharleenechols@gmail.com",
+      "phone": "+123456789",
+      "about": " It offers total privacy and uninterrupted panoramic views over the countryside to the sea. The private pool can be heated if required at an additional cost. It is on a large plot of land in a quiet area only 3kms from the pretty market town of Loulé where there are many shops and restaurants. Outside, a covered dining area leads to the secluded pool, where there is a south facing terrace and a shaded spot under a palm tree. Here you can lie on the hammock to escape the midday sun!The garden surrounding the villa is delightful and is surrounded by shrubbery ensuring complete privacy. There are trailing bougainvilleas, a variety of trees (including lemon, fig and almond) and shrubs providing colour throughout the year.The kitchen is at one end of the open-plan living/dining room and there is a comfortable leather sofa and chairs around a log burning stove.The accommodation consists of: 2 double bedrooms, 1 en-suite bathroom, 1 shower room, balcony, sun room, fully equipped kitchen with dishwasher and washing machine, lounge/diner with satellite TV, DVD and CD/radio. Air conditioning in the master bedroom and the lounge/diner is included in the price."
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://i.pinimg.com/originals/79/0c/d2/790cd29bd9bdee8745237d3d9986844f.jpg",
+      "building": "Built in 2011",
+      "category": "Building house",
+      "price": 5200000,
+      "area": "372m2",
+      "rooms": 9,
+      "country": "Israel",
+      "type": "VIP",
+      "realtor": "Normand Sparrow",
+      "email": "normandsparrow@gmail.com",
+      "phone": "+123456789",
+      "about": " It offers total privacy and uninterrupted panoramic views over the countryside to the sea. The private pool can be heated if required at an additional cost. It is on a large plot of land in a quiet area only 3kms from the pretty market town of Loulé where there are many shops and restaurants. Outside, a covered dining area leads to the secluded pool, where there is a south facing terrace and a shaded spot under a palm tree. Here you can lie on the hammock to escape the midday sun!The garden surrounding the villa is delightful and is surrounded by shrubbery ensuring complete privacy. There are trailing bougainvilleas, a variety of trees (including lemon, fig and almond) and shrubs providing colour throughout the year.The kitchen is at one end of the open-plan living/dining room and there is a comfortable leather sofa and chairs around a log burning stove.The accommodation consists of: 2 double bedrooms, 1 en-suite bathroom, 1 shower room, balcony, sun room, fully equipped kitchen with dishwasher and washing machine, lounge/diner with satellite TV, DVD and CD/radio. Air conditioning in the master bedroom and the lounge/diner is included in the price."
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://i.pinimg.com/originals/79/0c/d2/790cd29bd9bdee8745237d3d9986844f.jpg",
+      "building": "Built in 2011",
+      "category": "Building house",
+      "price": 900000,
+      "area": "372m2",
+      "rooms": 9,
+      "country": "Israel",
+      "type": "STANDARD",
+      "realtor": "Sharleen Echols",
+      "email": "sharleenechols@gmail.com",
+      "phone": "+123456789"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://i.pinimg.com/originals/79/0c/d2/790cd29bd9bdee8745237d3d9986844f.jpg",
+      "building": "Built in 2011",
+      "category": "Building house",
+      "price": 820000,
+      "area": "372m2",
+      "rooms": 9,
+      "country": "Israel",
+      "type": "STANDARD",
+      "realtor": "Sharleen Echols",
+      "email": "sharleenechols@gmail.com",
+      "phone": "+123456789"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://i.pinimg.com/originals/79/0c/d2/790cd29bd9bdee8745237d3d9986844f.jpg",
+      "building": "Built in 2011",
+      "category": "Building house",
+      "price": 770000,
+      "area": "372m2",
+      "rooms": 9,
+      "country": "Israel",
+      "type": "STANDARD",
+      "realtor": "Enoch Muldrew",
+      "email": "enochmuldrew@gmail.com",
+      "phone": "+123456789"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://i.pinimg.com/originals/79/0c/d2/790cd29bd9bdee8745237d3d9986844f.jpg",
+      "building": "Built in 2011",
+      "category": "Building house",
+      "price": 5200000,
+      "area": "372m2",
+      "rooms": 9,
+      "country": "Israel",
+      "type": "VIP",
+      "realtor": "Enoch Muldrew",
+      "email": "enochmuldrew@gmail.com",
+      "phone": "+123456789"
+    }
+  ]
+}

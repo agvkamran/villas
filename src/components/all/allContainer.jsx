@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import All from './all';
-import { filterByPriceAC, setAllAC } from '../../redux/allReducer';
+import { changeVillaRoomsAC, filterByPriceAC, filterByRoomsAC, setAllAC, updateVillaPriceAC, filterVipAC } from '../../redux/allReducer';
 
 const mapStateToProps = (state) => {
     return {
@@ -13,8 +13,20 @@ const mapDispatchToProps = (dispatch) => {
         setAll: (newApartments) => {
             dispatch(setAllAC(newApartments));
         },
-        filterByPrice: (price) => {
-            dispatch(filterByPriceAC(price))
+        filterByPrice: (priceee) => {
+            dispatch(filterByPriceAC(priceee))
+        },
+        updateVillaPrice: (priceee) => {
+            dispatch(updateVillaPriceAC(priceee))
+        },
+        filterByRooms: (rooms) => {
+            dispatch(filterByRoomsAC(rooms));
+        },
+        changeVillaRooms: (rooms) => {
+            dispatch(changeVillaRoomsAC(rooms))
+        },
+        filterVip: () => {
+            dispatch(filterVipAC());
         }
     }
 }

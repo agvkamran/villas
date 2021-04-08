@@ -1,10 +1,11 @@
 import axios from 'axios';
 import React from 'react';
-import './favourite.css';
+// import './favourite.css';
 import ApartmentCard from '../apartmentCard/apartmentCard'
 
 
 class Favourite extends React.Component {
+    
     state = {
         villas: [],
     }

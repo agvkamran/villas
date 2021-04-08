@@ -6,10 +6,12 @@
 
 .App {
   width: 100%;
+  /* background-color: #ccf2f4; */
+  background-color: silver;
 }
 
 .sticky {
-  background-color: black;
+  /* background-color: black; */
   width: 100%;
 }
 

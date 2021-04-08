@@ -1,23 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-/*
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    max-width: 1920px;
-    justify-items: center;
-}
-*/
-
-.wrapper {
+/* .wrapper {
     display: flex;
     margin: 0 auto;
-    /* margin-top: 40px; */
     align-items: center;
     width: 100%;
-    /* max-width: 1920px; */
     justify-content: space-around;
     flex-wrap: wrap;
 }
@@ -40,7 +25,6 @@
 .center {
     display: flex;
     align-items: center;
-    /* margin-bottom: 40px; */
 }
 
 .description {
@@ -69,6 +53,8 @@
         transition: 0.6s; 
 
 }
+ */
+
 /* 
 @media screen and (max-width: 960px) {
    .logo {

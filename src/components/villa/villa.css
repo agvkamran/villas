@@ -1,6 +1,101 @@
-.villa-background {
-    background-color: white;
-    height: 100vh;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.default-container {
     width: 100%;
-    background-size: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    /* background-color: ; */
+}  
+
+.sm-image {
+    border: 3px solid lightblue;
+    margin: 20px;
+}
+
+.sm-description {
+    margin: 0 20px 20px;
+    display: flex;
+}
+
+.information > ul > li {
+    margin: 5px;
+}
+
+.realtor > ul > li{
+    font-size: 20px;
+    margin-left: 280px;
+    margin: 5px 280px;
+}
+
+.info {
+    margin: 20px 0 0 20px;
+}
+
+.sm-favourite {
+    margin: 20px;
+}
+
+.btn-fav {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.fav {
+    background-color: #91c788;
+    color: white;
+    transition: 0.2s ease;
+}
+
+.not-fav {
+    background-color:  #f05945;
+    color: white;
+    margin-left: 10px;
+    transition: 0.2 ease;
+}
+
+.sm-comments {
+    margin: 0 20px 20px 20px;
+}
+
+.comment-input {
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+
+.add-comment{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.comment {
+    margin: 15px 0 0 5px;
+    
+}
+
+.fav:hover {
+    background-color: white;
+    color: #91c788;
+}
+
+.not-fav:hover {
+    background-color: white;
+    color: #f05945;
+}
+
+.fa-thumbs-up {
+    border: none;
+    color: black;
 }

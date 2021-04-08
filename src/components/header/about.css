@@ -1,10 +1,10 @@
 .about-image {
-    /* background: url(../../assets/images/about1.jpg) 50%/cover no-repeat; */
+    /* background: url(../../assets/images/about1.jpg) 50% / cover no-repeat; */
     background-image: url(../../assets/images/about1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 84vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,7 +30,7 @@
 @media only screen and (max-height: 600px) {
     .about-image {
         min-height: 600px;
-            }
+    }
 }
 
 @media only screen and (max-height: 600px) {
